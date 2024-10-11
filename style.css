@@ -17,6 +17,8 @@ footer{
     width: 80%;
     padding-top: 40px;
     border-top: 1px solid lightgray;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 }
 
 ul{
@@ -140,6 +142,7 @@ img{
    border: 1px solid lightgray;
    border-radius: 10px;
    padding: 30px;
+   width: 350px;
 }
 
 .card h3{
@@ -161,11 +164,14 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .newsSection h2{
     align-self: flex-start;
     padding-bottom: 20px;
+    padding-left: 30px;
 }
 
 .newsSection button{
@@ -180,4 +186,43 @@ img{
 .newsSection button:hover{
     background-color: rgb(50, 178, 214);
     color: white;
+}
+
+
+.infoSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+
+.infoSecLinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.infoSecLinks a{
+    text-decoration: underline;
+}
+
+.infoSecLinks li{
+    display: inline;
+}
+
+.abc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.infoSection p a{
+    text-decoration: underline;
 }
