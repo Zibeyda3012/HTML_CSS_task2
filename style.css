@@ -99,6 +99,12 @@ nav{
 
 }
 
+.navbarLinks a{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
 img{
     width: 150px;
 }
@@ -120,4 +126,58 @@ img{
     justify-content: center;
     gap: 40px;
   
+}
+
+
+.newsCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+}
+
+.card{
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   padding: 30px;
+}
+
+.card h3{
+    padding-bottom: 25px;
+}
+
+.newsText{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.newsText a{
+    color: rgb(50, 178, 214);
+    font-weight: 600;
+}
+
+.newsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsSection h2{
+    align-self: flex-start;
+    padding-bottom: 20px;
+}
+
+.newsSection button{
+    background-color: white;
+    border: 1px solid  rgb(50, 178, 214);
+    color:  rgb(50, 178, 214);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.newsSection button:hover{
+    background-color: rgb(50, 178, 214);
+    color: white;
 }
